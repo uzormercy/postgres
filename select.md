@@ -116,3 +116,16 @@
     Reference => https://www.postgresql.org/docs/15/functions-aggregate.html
 
     for more aggregate function
+
+    More Examples for Aggregation functions
+
+    SELECT MAX(column_name) FROM table_name
+    SELECT MIN(column_name) FROM table_name
+    SELECT AVG(column_name) FROM table_name
+    SELECT ROUND(AVG(column_name)) FROM table_name
+    SELECT column_name, column_name, column_name, MIN(column_name) FROM table_name GROUP BY column_name, column_name, column_name
+    SELECT SUM(column_name) FROM table_name
+    SELECT SUM(column_name) FROM table_name GROUP BY column_name
+
+
+##
