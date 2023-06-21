@@ -1,5 +1,5 @@
 create table customers (
-	id bigserial PRIMARY KEY,
+	id bigserial PRIMARY KEY not null,
 	first_name VARCHAR(50),
 	last_name VARCHAR(50),
 	email VARCHAR(50),

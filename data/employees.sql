@@ -1,5 +1,6 @@
 create table employees (
-	salary INT
+	salary INT,
+	id bigserial primary key not null
 );
 insert into employees (salary) values (4681);
 insert into employees (salary) values (6694);

@@ -2,7 +2,7 @@ create table orders (
 	customer_id INT,
 	amount INT,
 	order_date DATE,
-	id bigserial PRIMARY KEY
+	id bigserial PRIMARY KEY not null
 );
 insert into orders (customer_id, amount, order_date) values (20, 9443, '6/14/2023');
 insert into orders (customer_id, amount, order_date) values (13, 4310, '9/20/2022');
